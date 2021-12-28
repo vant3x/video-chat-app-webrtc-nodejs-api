@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "nodemon": "^2.0.15",
+    "serve": "^13.0.2",
     "socket.io": "^4.4.0"
   }
 }
